@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+
+}
+header{
+    background-color: tomato;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    color:azure;
+    text-align: center;
+}
+main{
+    background-color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset{
+    background-color: burlywood;
+    padding: 15px;
+}
+legend{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+    text-align: center;
+}
+input, select{
+    padding: 15px 0;
+    width: 100%;
+    margin: 15px 0;
+}
+#submit{
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+#successBody{
+    background-color: lightgray;
+}
+#successH1{
+    color: tomato;
+    font-size: 60px;
+}

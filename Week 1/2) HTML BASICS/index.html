@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Their First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            king of Dem Heading
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="about.html" target="_blank">About Us</a></li> <!-- the target attr and _blank value takes the link to the next page--> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction" style="background-color : darkblue; padding: 16px; color: white;">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quo deserunt necessitatibus sint quisquam nisi cum in possimus ducimus ullam! Dolor velit totam temporibus doloribus non expedita quod quaerat omnis beatae, explicabo odit minima facilis repellat enim cumque illum error incidunt nulla molestias fuga officiis illo! Enim saepe itaque tenetur.
+            </p>
+        </section>
+
+
+        <section id="post" style="background-color : black; padding: 16px; color: white;">
+            <article>
+                <h2>our first post</h2>
+                <aside style="float: right; width:40%;">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus nemo temporibus, vel modi quo cumque repudiandae architecto corporis nihil doloribus!
+                </aside>
+            </article>
+            
+            <ol>
+                <li>Apples</li>
+                <li>Potato</li>
+            </ol>
+            <ul>
+                <li>Apples</li>
+                <li>Potato</li>
+            </ul>
+
+            <h3>third header</h3>
+            <div>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr>
+                        <td>Godfrey</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Femi</td>
+                        <td>13</td>
+                    </tr>
+                </table>
+            </div>
+
+            <h4>fourth header form</h4>
+            <form action="" method="">
+                <fieldset>
+                    <legend>Biodata</legend>
+                    <label for="Fullname">Fullname</label> <!--  for targets the name attribute in the input tag -->
+                    <input type="text" name="Fullname" id="fullName">
+                    <label for="Email">Email</label> 
+                    <input type="email" name="Email" id="userEmail">
+                    <label for="dob">Date of Birth</label> 
+                    <input type="date" name="dob" id="userDob">
+                    <label for="Male">Male</label> 
+                    <input type="radio" name="sex" id="male" value="male">
+                    <label for="female">Female</label> 
+                    <input type="radio" name="sex" id="female" value="female">
+                    <select name="state" id="state"> <!-- It gives you a drop down menu option-->
+                        <option value="oyo">Oyo</option>
+                        <option value="kano">Kano</option>
+                        <option value="imo">Imo</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+
+
+        <section id="media">
+            <h5>fifth header tag</h5>
+            <figure>
+                <img src="bus.jpg" alt="bus" width="700" height="600">
+                <figcaption style="color:grey;">A Running BRT Bus</figcaption>
+            </figure>
+
+            <video controls> <!-- the controls attr makes the user control the video--->
+                <source src="index.mp4">
+            </video>  
+            
+            <audio controls>
+                <source src="Gwagwalada.mp3">
+            </audio>
+        </section>
+    </main>
+    
+    <footer>
+        <h6>baby header</h6>
+    Copyright &copy; 2023 
+    </footer>
+    
+    <script type="text/javascript">
+        alert("Welcome to my Page");
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
