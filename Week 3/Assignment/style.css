@@ -1,0 +1,140 @@
+alert{
+    background-color: blue;
+}
+body{
+    margin: 0;
+    background-color: rgb(67, 62, 131);
+}
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+.logo{
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 50%;
+}
+.logo h5{
+    font-size: 35px;
+    color: rgb(67, 62, 131);
+}
+.navBtn{
+    display: block;
+    padding: 20px 40px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: rgb(67, 62, 131);
+    text-decoration: none;
+}
+.mainBody{
+    margin: 10px 50px;
+    color: #fff;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.mainBody h1{
+    font-size: 50px;
+}
+.mainBody p{
+font-size: 30px;
+}
+
+.divideLine{
+    background-color: #fff;
+    height: 15px;
+    width: 100%;
+    margin: 50px auto;
+}
+
+main{
+    width: 80%;
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#form{
+    background-color: #fff;
+    width: 80%;
+    margin: 10px auto 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    display: flex;
+}
+.pt1{
+    width: 40%;
+    margin-right: 20px;
+}.pt1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.pt2{
+    width: 60%;
+}
+input, select{
+    padding: 10px 3px;
+    width: 100%;
+    margin: 15px 0;
+    background-color:  lightgray;
+    border: none;
+    border-radius: 5px;
+}#submit{
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px auto 0px;
+}
+footer{
+    border-top: solid #fff 4px;
+    margin-top: 40px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+    #form{
+        display: block;
+    }
+    .pt1{
+        width: 80%;
+        margin-right: 0px;
+        margin: 0 auto 30px;
+    }.pt1 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        
+    }
+    .pt2{
+        width: 100%;
+    }
+    .mainBody h1{
+        font-size: 40px;
+    }
+    .mainBody p{
+    font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        padding: 30px 10px;
+    }
+    .mainBody{
+        margin: 10px 10px;
+        color: #fff;
+        text-align: center;
+        padding-bottom:20px;
+    }
+}
